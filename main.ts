@@ -380,6 +380,6 @@ let dragon = sprites.create(img`
 dragon.setPosition(120, 56)
 forever(function () {
     while (isDragonAlive == true) {
-        music.wawawawaa.loop()
+        music.baDing.play()
     }
 })
